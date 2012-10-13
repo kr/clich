@@ -27,6 +27,7 @@ char *invalid[] = {
 };
 
 Valid valid[] = {
+	{"", 0, {}},
 	{"11<hello world>", 1, {{11, '<', "hello world"}}},
 	{"5<apple>6<banana>6<orange>", 3, {
 		{5, '<', "apple"},
